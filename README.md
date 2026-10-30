@@ -1,3 +1,3 @@
 ![Banner](banner.png)
 
-# Parallels-Edge + Combined with AtlasOS
+# Parallels-VMware-Gaming-Comparison + Combined with AtlasOS
