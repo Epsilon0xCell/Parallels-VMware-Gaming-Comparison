@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" role="img" aria-label="Rooftop strip: a fireman swinging the matoi, a bucket passing hand to hand, embers rising">
+<rect width="1200" height="340" fill="#223864"/>
+<g opacity="0.55" fill="none" stroke="#c8ccd4" stroke-width="10" stroke-linecap="round">
+<path d="M-40 60 Q 300 20 700 52"><animate attributeName="d" dur="26s" repeatCount="indefinite" values="M-40 60 Q 300 20 700 52; M60 52 Q 420 30 820 44; M-40 60 Q 300 20 700 52"/></path>
+<path d="M500 84 Q 840 44 1260 76"><animate attributeName="d" dur="32s" repeatCount="indefinite" values="M500 84 Q 840 44 1260 76; M420 78 Q 780 56 1180 66; M500 84 Q 840 44 1260 76"/></path>
+</g>
+<g fill="#2e3a52" stroke="#141c2c" stroke-width="3">
+<polygon points="0,250 200,180 400,250 400,300 0,300"/>
+<polygon points="380,262 560,196 740,262 740,300 380,300"/>
+<polygon points="720,250 920,180 1120,250 1120,300 720,300"/>
+</g>
+<rect x="560" y="150" width="26" height="110" fill="#dedacf"/>
+<g>
+<g>
+<animateTransform attributeName="transform" type="rotate" dur="7s" repeatCount="indefinite" values="-14 330 210; 14 330 210; -14 330 210"/>
+<line x1="330" y1="238" x2="330" y2="128" stroke="#22342a" stroke-width="7"/>
+<ellipse cx="330" cy="106" rx="24" ry="24" fill="#243f6e" stroke="#eeece2" stroke-width="3"/>
+<g stroke="#eeece2" stroke-width="6">
+<line x1="312" y1="126" x2="306" y2="172"/><line x1="324" y1="128" x2="322" y2="176"/><line x1="336" y1="128" x2="338" y2="176"/><line x1="348" y1="126" x2="354" y2="172"/>
+</g>
+</g>
+<rect x="306" y="196" width="48" height="58" fill="#2c4470"/>
+<ellipse cx="330" cy="182" rx="14" ry="15" fill="#e2b28a"/>
+</g>
+<g fill="#34445e">
+<rect x="470" y="238" width="26" height="44"/><rect x="540" y="238" width="26" height="44"/><rect x="610" y="238" width="26" height="44"/>
+</g>
+<g fill="#e2b28a"><ellipse cx="483" cy="228" rx="11" ry="12"/><ellipse cx="553" cy="228" rx="11" ry="12"/><ellipse cx="623" cy="228" rx="11" ry="12"/></g>
+<g>
+<rect x="500" y="216" width="26" height="20" fill="#785830" stroke="#e8ba5c" stroke-width="2"/>
+<animateTransform attributeName="transform" type="translate" dur="7s" repeatCount="indefinite" values="0 0; 70 0; 140 0; 70 0; 0 0" keyTimes="0;0.25;0.5;0.75;1"/>
+</g>
+<g fill="#fcbe50">
+<ellipse cx="820" cy="290" rx="4" ry="6"><animate attributeName="cy" dur="5s" repeatCount="indefinite" values="290;150"/><animate attributeName="opacity" dur="5s" repeatCount="indefinite" values="1;0"/></ellipse>
+<ellipse cx="852" cy="300" rx="3" ry="5"><animate attributeName="cy" dur="6.5s" begin="1.2s" repeatCount="indefinite" values="300;170"/><animate attributeName="opacity" dur="6.5s" begin="1.2s" repeatCount="indefinite" values="1;0"/></ellipse>
+<ellipse cx="790" cy="296" rx="3" ry="5"><animate attributeName="cy" dur="7.5s" begin="2.4s" repeatCount="indefinite" values="296;180"/><animate attributeName="opacity" dur="7.5s" begin="2.4s" repeatCount="indefinite" values="1;0"/></ellipse>
+</g>
+<g stroke="#785830" stroke-width="7"><line x1="60" y1="330" x2="150" y2="252"/><line x1="104" y1="330" x2="194" y2="252"/></g>
+<g fill="#3a465e" stroke="#141c2c" stroke-width="2"><rect x="980" y="306" width="90" height="12"/><rect x="986" y="292" width="90" height="12"/><rect x="992" y="278" width="90" height="12"/></g>
+</svg>

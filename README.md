@@ -1,9 +1,19 @@
-![Banner](banner.png)
+![Intro: an empty Edo lane before dawn, the watchtower bell still and a matoi resting against the railing](intro-banner.png)
+
 
 # Parallels-VMware-Gaming-Comparison
 
+![Banner](banner.png)
+
+![Scene](scene.svg)
+
+![Separator](sep-heavy.svg)
+
+
 This repo holds one comparison, in Analysis.md. That file is the whole
 substance here; this README only points at it.
+
+> **Watch hut note:** the performance figures on this page and in Analysis.md are the analysis author claims. They were not retested here, and no benchmark or test was run for this re-skin.
 
 Analysis.md compares Parallels Desktop and VMware Fusion for gaming on
 Mac. Its verdict is that Parallels is the better choice for gaming, and
