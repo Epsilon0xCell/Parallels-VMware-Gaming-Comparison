@@ -3,69 +3,73 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Parallels-VMware-Gaming-Comparison: the watch hut tally board</title>
-<meta name="description" content="One comparison of Parallels Desktop and VMware Fusion for gaming on a Mac, held in Analysis.md, read as a tally board of two fire brigades.">
+<title>Parallels-VMware-Gaming-Comparison: the brass balance</title>
+<meta name="description" content="One comparison of Parallels Desktop and VMware Fusion for gaming on a Mac, held in Analysis.md, read as two pans of a brass balance.">
 <style>
-@font-face{font-family:'Alumni Sans SC';src:url('fonts/AlumniSansSC.ttf') format('truetype')}
-@font-face{font-family:'Cabin';src:url('fonts/Cabin.ttf') format('truetype')}
+@font-face{font-family:'Rajdhani';src:url('fonts/Rajdhani-Medium.ttf') format('truetype');font-weight:500}
+@font-face{font-family:'Rajdhani';src:url('fonts/Rajdhani-SemiBold.ttf') format('truetype');font-weight:600}
+@font-face{font-family:'Rajdhani';src:url('fonts/Rajdhani-Bold.ttf') format('truetype');font-weight:700}
+@font-face{font-family:'Titillium Web';src:url('fonts/TitilliumWeb-Regular.ttf') format('truetype');font-weight:400}
+@font-face{font-family:'Titillium Web';src:url('fonts/TitilliumWeb-SemiBold.ttf') format('truetype');font-weight:600}
+@font-face{font-family:'Titillium Web';src:url('fonts/TitilliumWeb-Bold.ttf') format('truetype');font-weight:700}
 *{box-sizing:border-box}
-body{margin:0;background:#1d3358;color:#232323;font-family:'Cabin',sans-serif;line-height:1.6}
+body{margin:0;background:#17402a;color:#26241c;font-family:'Titillium Web',sans-serif;line-height:1.6}
 .hero{max-width:960px;margin:0 auto;padding:30px 22px 4px}
-.hero img{width:100%;height:auto;display:block}
-h1{font-family:'Alumni Sans SC',sans-serif;font-size:2.6rem;letter-spacing:.06em;color:#eeece2;margin:.3em 0 .15em;line-height:1.15}
-.lede{color:#eeece2;font-size:1.12rem;max-width:66ch}
+.hero img{width:100%;height:auto;display:block;border:3px solid #8a6d2f}
+h1{font-family:'Rajdhani',sans-serif;font-weight:700;font-size:2.5rem;letter-spacing:.05em;color:#f5efdd;margin:.3em 0 .15em;line-height:1.15}
+.lede{color:#e6e0cb;font-size:1.12rem;max-width:66ch}
 main{max-width:960px;margin:0 auto;padding:6px 22px 44px}
-.board{background:#eeece2;border:3px solid #22342a;padding:20px 24px;margin:20px 0;position:relative}
-.board::before{content:'';position:absolute;top:12px;left:12px;width:14px;height:14px;background:#b2362a;transform:rotate(45deg);border:2px solid #243f6e}
-h2{font-family:'Alumni Sans SC',sans-serif;font-size:1.9rem;letter-spacing:.05em;margin:.1em 0 .4em;color:#1d3358}
+.board{background:#f5efdd;border:3px solid #8a6d2f;padding:20px 24px;margin:20px 0;position:relative;box-shadow:0 4px 0 rgba(0,0,0,.35)}
+.board::before{content:'';position:absolute;top:12px;left:12px;width:14px;height:14px;background:#7f1d1d;transform:rotate(45deg);border:2px solid #8a6d2f}
+h2{font-family:'Rajdhani',sans-serif;font-weight:600;font-size:1.8rem;letter-spacing:.04em;margin:.1em 0 .4em;color:#17402a}
 .verdict{font-size:1.2rem}
-.figure{color:#b2362a;font-weight:700;font-size:1.5rem}
+.figure{color:#7f1d1d;font-weight:700;font-size:1.5rem}
 .note{font-size:.92rem}
-.slat{display:grid;grid-template-columns:1fr 1.4fr 1.4fr;gap:12px;border-bottom:2px solid #22342a;padding:10px 2px}
-.slat.head{font-family:'Alumni Sans SC',sans-serif;font-size:1.15rem;letter-spacing:.04em;border-bottom:4px solid #22342a}
+.slat{display:grid;grid-template-columns:1fr 1.4fr 1.4fr;gap:12px;border-bottom:2px solid #8a6d2f;padding:10px 2px}
+.slat.head{font-family:'Rajdhani',sans-serif;font-weight:600;font-size:1.15rem;letter-spacing:.04em;border-bottom:4px solid #8a6d2f}
 .rowname{font-weight:700}
-.tick{display:inline-block;background:#b2362a;color:#eeece2;font-size:.72rem;padding:.05em .5em;border-radius:2px;vertical-align:.15em}
-.rule{border:0;border-top:4px solid #22342a;margin:30px 0 6px;position:relative}
-.slatbtn{display:inline-block;background:#22342a;color:#eeece2;font-family:'Cabin',sans-serif;padding:.5em 1.2em;text-decoration:none;box-shadow:inset 0 0 0 2px #1d3358,inset 0 0 0 4px #22342a;position:relative;margin:.2em .3em .2em 0}
-.slatbtn::after{content:'';position:absolute;left:0;bottom:0;height:4px;width:0;background:#b2362a;transition:width .25s}
+.tick{display:inline-block;background:#7f1d1d;color:#f5efdd;font-size:.72rem;padding:.05em .5em;border-radius:2px;vertical-align:.15em}
+.rule{border:0;border-top:4px solid #8a6d2f;margin:30px 0 6px;position:relative}
+.slatbtn{display:inline-block;background:#17402a;color:#f5efdd;font-family:'Titillium Web',sans-serif;padding:.5em 1.2em;text-decoration:none;box-shadow:inset 0 0 0 2px #0d2a1a,inset 0 0 0 4px #8a6d2f;position:relative;margin:.2em .3em .2em 0}
+.slatbtn::after{content:'';position:absolute;left:0;bottom:0;height:4px;width:0;background:#7f1d1d;transition:width .25s}
 .slatbtn:hover::after{width:100%}
 .slatbtn:active{transform:translateY(2px)}
-.slatbtn:focus-visible{outline:3px solid #b2362a;outline-offset:4px}
-a.crest{color:#eeece2;text-decoration:none}
-a.crest::before{content:'';display:inline-block;width:.6em;height:.6em;border:2px solid #b2362a;transform:rotate(45deg);margin-right:.5em}
+.slatbtn:focus-visible{outline:3px solid #7f1d1d;outline-offset:4px}
+a.crest{color:#f5efdd;text-decoration:none}
+a.crest::before{content:'';display:inline-block;width:.6em;height:.6em;border:2px solid #b08d3e;transform:rotate(45deg);margin-right:.5em}
 a.crest:hover{text-decoration:underline}
-a.crest:hover::before{background:#b2362a}
-.onblue{color:#eeece2}
-footer{max-width:960px;margin:0 auto;padding:4px 22px 40px;color:#c9cede;font-size:.92rem}
+a.crest:hover::before{background:#7f1d1d}
+.onblue{color:#f5efdd}
+footer{max-width:960px;margin:0 auto;padding:4px 22px 40px;color:#cfd8c9;font-size:.92rem}
 </style>
 </head>
 <body>
 <header class="hero">
-<img src="https://raw.githubusercontent.com/Epsilon0xCell/Parallels-VMware-Gaming-Comparison/main/intro-banner.png" alt="An empty Edo lane before dawn, a watchtower with a resting matoi">
+<img src="https://raw.githubusercontent.com/Epsilon0xCell/Parallels-VMware-Gaming-Comparison/main/intro-banner.png" alt="A close view of the brass balance central dial, its long needle swung firmly to the right and holding, the two pans cropped at the frame edges against green baize">
 <h1>Parallels-VMware-Gaming-Comparison</h1>
-<p class="lede">This repository holds one file of substance, Analysis.md, carrying one comparison of Parallels Desktop and VMware Fusion for gaming on a Mac. The README only points readers to that file. This page is the watch hut tally board where the two sides stand next to each other after the same fire.</p>
-<p><a class="slatbtn" href="https://github.com/Epsilon0xCell/Parallels-VMware-Gaming-Comparison">The repo on GitHub</a> <a class="slatbtn" href="#tally">Read the tally</a></p>
+<p class="lede">This repository holds one file of substance, Analysis.md, carrying one comparison of Parallels Desktop and VMware Fusion for gaming on a Mac. The README only points readers to that file. This page is the brass balance where the two sides are placed in the two pans and weighed for the same job.</p>
+<p><a class="slatbtn" href="https://github.com/Epsilon0xCell/Parallels-VMware-Gaming-Comparison">The repo on GitHub</a> <a class="slatbtn" href="#tally">Read the weighing</a></p>
 </header>
 <main>
 <section class="board">
-<h2>First board: the verdict, hung highest</h2>
+<h2>First pan: the verdict, settled</h2>
 <p class="verdict">Parallels Desktop is named the better gaming choice. The graphics heavy gap is put at <span class="figure">roughly 20 to 30 percent</span> in Parallels favour.</p>
 <p class="note">An honest note in smaller type, as the board itself insists: these are the claims of the Analysis.md author, not figures retested by this site. No benchmark was run for this page.</p>
 </section>
 <hr class="rule">
 <section class="board" id="tally">
-<h2>Second board: the five row tally</h2>
+<h2>Second pan: the five row weighing</h2>
 <div class="slat head"><span>Row</span><span>Parallels Desktop</span><span>VMware Fusion</span></div>
-<div class="slat"><span class="rowname">Gaming performance <span class="tick" aria-label="edge to Parallels">tick</span></span><span>Generally better for graphics intensive tasks</span><span>Solid for general use, but lags in graphics</span></div>
-<div class="slat"><span class="rowname">Optimization <span class="tick" aria-label="edge to Parallels">tick</span></span><span>Built for Apple Silicon, with tighter macOS integration</span><span>Limited optimization for Apple Silicon</span></div>
-<div class="slat"><span class="rowname">Ease of use <span class="tick" aria-label="edge to Parallels">tick</span></span><span>Friendly, with a simpler setup</span><span>More complex, with a steeper climb for new users</span></div>
-<div class="slat"><span class="rowname">Support <span class="tick" aria-label="edge to Parallels">tick</span></span><span>Round the clock global support</span><span>Community support</span></div>
-<div class="slat"><span class="rowname">Updates <span class="tick" aria-label="edge to Parallels">tick</span></span><span>Regular updates with new features</span><span>Less frequent updates</span></div>
-<p class="note">Cinnabar ticks mark the rows where the analysis gives one side the edge. The wording follows the table in Analysis.md.</p>
+<div class="slat"><span class="rowname">Gaming performance <span class="tick" aria-label="edge to Parallels">edge</span></span><span>Generally better for graphics intensive tasks</span><span>Solid for general use, but lags in graphics</span></div>
+<div class="slat"><span class="rowname">Optimization <span class="tick" aria-label="edge to Parallels">edge</span></span><span>Built for Apple Silicon, with tighter macOS integration</span><span>Limited optimization for Apple Silicon</span></div>
+<div class="slat"><span class="rowname">Ease of use <span class="tick" aria-label="edge to Parallels">edge</span></span><span>Friendly, with a simpler setup</span><span>More complex, with a steeper climb for new users</span></div>
+<div class="slat"><span class="rowname">Support <span class="tick" aria-label="edge to Parallels">edge</span></span><span>Round the clock global support</span><span>Community support</span></div>
+<div class="slat"><span class="rowname">Updates <span class="tick" aria-label="edge to Parallels">edge</span></span><span>Regular updates with new features</span><span>Less frequent updates</span></div>
+<p class="note">Deep red marks note the rows where the analysis gives one side the edge. The wording follows the table in Analysis.md.</p>
 </section>
 <hr class="rule">
 <section class="board">
-<h2>Third board: the four arguments, in prose order</h2>
+<h2>Third pan: the four arguments, in prose order</h2>
 <p><b>1. Graphics performance.</b> Parallels is presented as tuned for gaming, with smoother gameplay and better frame rates than Fusion.</p>
 <p><b>2. Integration with macOS.</b> Closer ties to macOS features and peripherals, with smoother movement between the macOS and Windows sides.</p>
 <p><b>3. The friendlier interface.</b> A simpler setup that asks less technical knowledge of the person running games.</p>
@@ -74,7 +78,7 @@ footer{max-width:960px;margin:0 auto;padding:4px 22px 40px;color:#c9cede;font-si
 <p class="onblue"><a class="crest" href="https://github.com/Epsilon0xCell/Parallels-VMware-Gaming-Comparison/blob/main/Analysis.md">Read Analysis.md itself</a></p>
 </main>
 <footer>
-<p>Colophon slat: Analysis.md is the substance, the README is a pointer, and an earlier title phrase about AtlasOS was removed because nothing in the analysis discusses it. Fonts: Alumni Sans SC and Cabin, both SIL Open Font License 1.1, license texts beside the font files. Firestor was a lettering reference only and is not embedded.</p>
+<p>Colophon: Analysis.md is the substance, the README is a pointer, and an earlier title phrase about AtlasOS was removed because nothing in the analysis discusses it. Fonts: Rajdhani and Titillium Web, both SIL Open Font License 1.1, license texts beside the font files.</p>
 </footer>
 </body>
 </html>
